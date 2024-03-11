@@ -18,7 +18,8 @@
                     </td>
                 </tr>
             </tbody>
-
+            <!-- 加上這行，edit_info.php 這隻 api 的邏輯撰寫會比較簡單 -->
+            <!-- <input type="hidden" name="id" value="<?= $DB->find(1)['id'] ?>"> -->
             <input type="hidden" name="table" value="<?= $do ?>">
 
         </table>
